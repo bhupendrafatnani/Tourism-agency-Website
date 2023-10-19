@@ -1,0 +1,184 @@
+/*=============================general=============================*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*=========variable define=========*/
+:root {
+  --primary-color: #fdab3b;
+  --secondary-color: #231e41;
+  --white-color: #fff;
+  --black-color: #1c1c1c;
+
+  /*===========text color===========*/
+  --text-primary: #fdab3b;
+  --text-secondary: #231e41;
+  --text-white: #fff;
+  --text-color: #555;
+  --text-gray: #999;
+}
+
+/*=======================card=========================*/
+.services-section .services-conatiner .service-cards::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #eaeaea;
+}
+
+.services-section .services-conatiner .service-cards::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
+
+.services-section .services-conatiner .service-cards::-webkit-scrollbar-button {
+  display: none;
+}
+
+.services-section .services-conatiner .service-cards {
+  overflow-y: scroll;
+  height: 98%;
+}
+
+.services-section .services-conatiner .service-cards .card {
+  height: 25rem;
+  font-family: "Roboto", sans-serif;
+  width: 18rem;
+  margin-top: 1rem;
+  margin-right: 0.35rem;
+  margin-left: 0.35rem;
+  padding: 0;
+  overflow: hidden;
+  border: solid 3.4px var(--primary-color);
+  border-style: dashed;
+  border-radius: 15px;
+}
+
+.services-section .services-conatiner .service-cards .card img {
+  transition: all 0.4s ease-in-out;
+  margin: 0;
+  height: 200px;
+  width: 100%;
+}
+
+.services-section .services-conatiner .service-cards .card:hover img {
+  -webkit-transform: scale(1.15);
+  -moz-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  transform: scale(1.15);
+}
+
+.services-section .services-conatiner .service-cards .card .card-img-gradient {
+  position: relative;
+}
+
+.services-section
+  .services-conatiner
+  .service-cards
+  .card
+  .card-img-gradient:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 45%;
+  opacity: 0.5;
+  display: inline-block;
+  background: -moz-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0%, rgba(0, 0, 0, 1)),
+    color-stop(100%, rgba(0, 0, 0, 0))
+  );
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -o-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -ms-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#00000000', GradientType=0);
+  transition: 0.5s;
+}
+
+.services-section
+  .services-conatiner
+  .service-cards
+  .card:hover
+  .card-img-gradient::after {
+  height: 80%;
+  transition: 0.5s;
+}
+
+.services-section .services-conatiner .service-cards .card h5 {
+  color: var(--text-secondary);
+}
+
+.services-section .services-conatiner .service-cards .card p {
+  color: var(--text-color);
+  line-height: 22px;
+  font-size: 13px;
+}
+
+.services-section .services-conatiner .service-cards .card hr {
+  margin-top: -10px;
+  color: var(--black-color);
+  line-height: 2px;
+}
+
+.services-section .services-conatiner .service-cards .card h3 {
+  color: var(--text-primary);
+  margin-left: -4px;
+}
+
+.services-section .services-conatiner .service-cards .card svg {
+  color: var(--text-primary);
+  margin-left: -5px;
+  margin-top: 6.4px;
+}
+
+.services-section .services-conatiner .service-cards .card button {
+  border-radius: 50px;
+  background: var(--black-color);
+  border: solid 3.2px var(--primary-color);
+  margin-top: -3px;
+  margin-left: 18.86px;
+  transition: 0.2s;
+}
+
+.services-section .services-conatiner .service-cards .card button:hover {
+  -webkit-transform: scale(0.96);
+  -moz-transform: scale(0.96);
+  -o-transform: scale(0.96);
+  transform: scale(0.96);
+}

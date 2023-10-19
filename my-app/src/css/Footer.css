@@ -1,0 +1,198 @@
+/*=============================general=============================*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*=========variable define=========*/
+:root {
+  --primary-color: #fdab3b;
+  --secondary-color: #231e41;
+  --white-color: #fff;
+  --black-color: #1c1c1c;
+
+  /*===========text color===========*/
+  --text-primary: #fdab3b;
+  --text-secondary: #231e41;
+  --text-white: #fff;
+  --text-color: #555;
+  --text-gray: #999;
+}
+
+/*========================Footer==========================*/
+.footer-32892 {
+  background-color: #202126;
+  padding: 7rem 0;
+  color: #888;
+  font-size: 16px;
+}
+
+.footer-32892,
+.footer-32892 h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-32892 h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-32892 p {
+  font-family: 'Roboto', serif;
+}
+
+.footer-32892 .row.gallery {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+
+.footer-32892 .row.gallery > [class^="col-"],
+.footer-32892 .row.gallery > [class*=" col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.footer-32892 .gallery a {
+  display: block;
+  margin-bottom: 10px;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.footer-32892 .gallery a:hover {
+  opacity: 0.5;
+}
+
+.footer-32892 .quick-info li {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-32892 .quick-info li a {
+  color: #fff;
+}
+
+.footer-32892 .quick-info li .icon {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.footer-32892 .subscribe {
+  position: relative;
+}
+
+.footer-32892 .subscribe .form-control {
+  background-color: #292b31;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 30px;
+  height: 55px;
+  padding-left: 30px;
+  padding-right: 130px;
+  border: none;
+  color: #fff;
+}
+
+.footer-32892 .subscribe .form-control::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-32892 .subscribe .form-control::-moz-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-32892 .subscribe .form-control:-ms-input-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-32892 .subscribe .form-control:-moz-placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.footer-32892 .subscribe .btn-submit {
+  background: var(--primary-color);
+  height: 47px;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer-32892 .subscribe .social-media-icons {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 12.2px;
+    transition: 0.3s;
+}
+
+.footer-32892 .subscribe .social-media-icons:hover {
+    color: var(--primary-color);
+    transition: 0.3s;
+}
+
+.footer-32892 .twitter-icon {
+    color: #fff;
+}
+
+.footer-32892 .tweets li {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-style: italic;
+  font-family: 'Roboto', serif;
+}
+
+.footer-32892 .tweets li span {
+  color: #fff;
+}
+
+.footer-32892 .footer-menu-wrap {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 2rem !important;
+  margin-top: 7rem;
+}
+
+.footer-32892 .footer-menu {
+  margin-bottom: 0;
+}
+
+.footer-32892 .footer-menu li {
+  display: inline-block;
+}
+
+.footer-32892 .footer-menu li a {
+  padding: 8px;
+  display: inline-block;
+  color: #fff;
+}
+
+.footer-32892 .footer-menu li a:hover {
+    color: var(--primary-color);
+}
+
+.footer-32892 .site-logo {
+  color: #fff;
+  font-size: 20px;
+}
